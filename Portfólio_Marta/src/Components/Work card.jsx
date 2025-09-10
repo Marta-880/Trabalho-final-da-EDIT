@@ -22,7 +22,7 @@ return <>
     <div>
          {worklist.map((work) => {
             return(
-          <Card title={work.title}  area={work.is_on_view} img={work.image_id}> </Card>
+          <Card key={work.id} title={work.title}  area={work.is_zoomable} img={work.image_id}> </Card>
             )})}
 
     </div>

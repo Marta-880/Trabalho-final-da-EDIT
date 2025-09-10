@@ -4,7 +4,7 @@ import WorkCard from "./Work card";
 function MyProjects(){
 
     return <>
-    <div className="body">
+    <div className="bodyNotGrid">
      <div className="prettyButtons">
         <Link to="/my-projects/designs">
             <button className="pinkButton normalButton">Design</button>

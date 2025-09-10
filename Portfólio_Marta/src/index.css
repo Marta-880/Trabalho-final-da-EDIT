@@ -95,6 +95,7 @@ body{
 }
 .prettyButtons{
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 .pinkButton{
    background-color: pink;
@@ -155,4 +156,12 @@ body{
     text-align: center;
     transition: transform 0.2s ease;
     color: black;
+}
+
+.bodyNotGrid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
 }

@@ -23,7 +23,7 @@ function HomePage(){
         </div>
     </div>
     <div className="footer">
-        <span class="title smallertitle">Latest works:</span>
+        <span className="title smallertitle">Latest works:</span>
         <div className="latestDisplay">
            <div className="item">1</div>
            <div className="item">2</div>

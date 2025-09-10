@@ -1,10 +1,11 @@
 function Card({title, img, area}){
-    if(area = false){
+
+    if (area == true){
         area = "Design"
-    }else if(area = true){
+    }else if(area ==false){
         area = "Front-end"
     }
-
+  console.log(area)
 
     return <>
     <div className="card">
