@@ -1,0 +1,158 @@
+:root {
+  margin: 0;
+  padding: 0;
+
+  color-scheme: light dark;
+  color: rgba(0, 0, 0, 0.87);
+  background-color: #e4e4e4;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 20px;
+    font-size: large;
+}
+
+.header{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 10px;
+ padding-bottom: 20px;
+ border-bottom: 2px solid #949393;
+ height: 30px;
+}
+
+.body{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    padding-top: 40px;
+}
+.imagemcentrada{
+    display: inline;
+    justify-content: center;
+    padding: 10px;
+}
+.title{
+    font-weight: normal;
+}
+.smallertitle{
+   margin-bottom: -10px;
+}
+.button{
+    border: none;
+    background-color: #e4e4e4;
+    color: black;
+    padding-right: 20px;
+    font-size: medium;
+    z-index: 2;
+}
+
+.button:hover{
+    color: gray;
+    cursor: pointer;
+}
+
+.icon:hover{
+    cursor: pointer;
+}
+.footer{
+   display: block;
+   margin-top: 70px;
+    padding: 10px;
+}
+
+.latestDisplay{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-content: center;
+}
+
+.item {
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+}
+.prettyButtons{
+    margin-top: 20px;
+}
+.pinkButton{
+   background-color: pink;
+}
+.normalButton{
+    margin-right: 10px;
+    color: black;
+    font-size: small;
+    border-radius: 10px;
+    height: 40px;
+    width: 100px;
+    border-width: 2px;
+    border-color: darkgrey;
+    z-index: 2;
+}
+.whiteButton{
+    background-color: #e4e4e4;
+}
+
+.pinkButton:hover{
+    background-color: rgb(245, 129, 149);
+    cursor: pointer;
+}
+.whiteButton:hover{
+    background-color: lightgrey;
+    cursor: pointer;
+}
+.largerButton{
+    width: 200px;
+    font-size: medium;
+    font-weight:550;
+    margin-top: 20px;
+}
+.icon{
+    height: 90px;
+    margin-top: -20px;
+}
+.icon:hover{
+    filter: brightness(60%); 
+}
+.me{
+    height: 400px;
+    margin-left: 60px;
+}
+.closer{
+    margin-top: -150px;
+}
+.catpic{
+    height: 600px;
+    margin-left: 60px;
+}
+.card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fdfdfd;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    padding: 16px;
+    text-align: center;
+    transition: transform 0.2s ease;
+    color: black;
+}
