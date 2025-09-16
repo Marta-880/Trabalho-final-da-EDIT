@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-function Card({title, img, area, id}){
+function Card({title, img, area, id, text}){
 
     if (area === true){
         area = "Design"
@@ -15,6 +15,7 @@ function Card({title, img, area, id}){
         <h2>{title}</h2>
         <img src={`https://www.artic.edu/iiif/2/${img}/full/843,/0/default.jpg`} alt={title} width={500} height={500} />
         <p>{area}</p>
+        <p>{text}</p>
     </div>  </Link>
     </>
 }
