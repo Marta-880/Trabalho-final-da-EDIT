@@ -24,7 +24,7 @@ createRoot(document.getElementById('root')).render(
       <Route path="/my-projects/designs" element={<Design></Design>}></Route>
       <Route path="/my-projects/front-end" element={<FrontEnd></FrontEnd>}></Route>
       <Route path="/my-projects/:id" element={<DetailPage></DetailPage>}></Route>
-      <Route path='not-found' element={<NotFound></NotFound>}></Route>
+      <Route path='*' element={<NotFound></NotFound>}></Route>
       
     </Routes>
     </BrowserRouter>

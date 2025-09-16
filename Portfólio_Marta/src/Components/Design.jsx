@@ -30,11 +30,14 @@ const [worklist, setworklist] = useState([]);
     </div>
     
     <div>
-       {worklist.map((work) => {
+       {worklist.filter((work) => (work.is_zoomable === true)).length ===0 ? (
+        <p>Sem trabalhos de momento</p>
+    ) : (
+       worklist.map((work) => {
         if (work.is_zoomable == true){
             return(
           <Card key={work.id} title={work.title}  area={work.is_zoomable} img={work.image_id}> </Card>
-            )}})}
+            )}}))}
     </div>
 
     </div>

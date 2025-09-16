@@ -28,11 +28,13 @@ function FrontEnd(){
     </div>
 
     <div>
-       {worklist.map((work) => {
+        {worklist.filter((work) => (work.is_zoomable === false)).length ===0 ? (
+        <p>Sem trabalhos de momento</p>
+    ) : (worklist.map((work) => {
         if (work.is_zoomable == false){
             return(
           <Card key={work.id} title={work.title}  area={work.is_zoomable} img={work.image_id}> </Card>
-            )}})}
+            )}}))}
     </div>
 
     </div>

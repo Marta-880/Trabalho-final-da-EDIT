@@ -23,12 +23,7 @@ function HomePage(){
         </div>
     </div>
     <div className="footer">
-        <span className="title smallertitle">Latest works:</span>
-        <div className="latestDisplay">
-           <div className="item">1</div>
-           <div className="item">2</div>
-           <div className="item">3</div>
-        </div>
+        <a href="https://www.behance.net/martapereira26">Check also my behance!</a>
     </div>
     </>
 }
