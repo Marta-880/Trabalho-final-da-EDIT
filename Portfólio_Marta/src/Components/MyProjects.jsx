@@ -13,8 +13,7 @@ function MyProjects(){
             <button className="whiteButton normalButton">Front-end</button>
         </Link>
     </div>
-    <WorkCard></WorkCard>
-    </div>
+    <WorkCard></WorkCard> </div>
     </>
 }
 

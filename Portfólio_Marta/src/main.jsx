@@ -1,7 +1,7 @@
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import {BrowserRouter, Route, Routes } from "react-router-dom"
-import HomePage from './COMPONENTS/Homepage'
+import HomePage from './Components/Homepage'
 import NaveBar from './Components/Navbar'
 import AboutMe from './Components/Aboutme'
 import MyProjects from './Components/MyProjects'

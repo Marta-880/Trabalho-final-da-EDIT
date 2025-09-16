@@ -21,7 +21,7 @@ function DetailPage(){
 return <>
      <div className="bodyNotGrid">
 
-        <Card key={work.id} id={work.id} title={work.title}  area={work.is_zoomable} img={work.image_id} text={work.short_description}> </Card>
+        <Card key={work.id} id={work.id} title={work.title}  area={work.is_zoomable} img={work.image_id} text={work.short_description} tools={work.classification_title}> </Card>
     </div>
 </>
 
