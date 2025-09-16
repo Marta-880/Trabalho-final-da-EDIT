@@ -1,18 +1,21 @@
-function Card({title, img, area}){
+import { Link } from "react-router-dom";
 
-    if (area == true){
+function Card({title, img, area, id}){
+
+    if (area === true){
         area = "Design"
-    }else if(area ==false){
+    }else if(area === false){
         area = "Front-end"
     }
   console.log(area)
 
     return <>
+     <Link to={"/my-projects/"+ id}>   
     <div className="card">
         <h2>{title}</h2>
-        <img src={img} alt={title} />
+        <img src={`https://www.artic.edu/iiif/2/${img}/full/843,/0/default.jpg`} alt={title} width={500} height={500} />
         <p>{area}</p>
-    </div>
+    </div>  </Link>
     </>
 }
 
