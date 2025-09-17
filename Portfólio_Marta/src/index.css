@@ -28,6 +28,8 @@ a:hover {
   color: rgba(112, 112, 112, 0.87);
 }
 
+
+
 .header{
  display: flex;
  justify-content: space-between;
@@ -47,6 +49,31 @@ a:hover {
     padding: 0.625rem; /* 10px */
     padding-top: 2.5rem; /* 40px */
 }
+
+.bodyNotGrid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.25rem;  /* 20px */
+}
+
+.workGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0.125rem; /* 4px */
+    justify-items: center;
+}
+
+.footer{
+   display: block;
+   margin-top: 4.375rem; /* 70px */
+    padding: 0.625rem; /* 10px */
+}
+
+
+
 .imagemcentrada{
     display: inline;
     justify-content: center;
@@ -58,6 +85,38 @@ a:hover {
 .smallertitle{
    margin-bottom: -0.625rem; /* -10px */
 }
+
+.icon:hover{
+    cursor: pointer;
+}
+
+.item {
+  padding: 0.625rem; /* 10px */
+  text-align: center;
+  border-radius: 0.625rem; /* 10px */
+}
+
+.icon{
+    height: 5.625rem;
+    margin-top: - 1.25rem;  /* -20px */
+}
+.icon:hover{
+    filter: brightness(60%); 
+}
+.me{
+    height: 25rem; /* 400px */
+    margin-left: 3.75rem; /* 60px */
+}
+.catpic{
+    height: 37.5rem; /* 600px */
+    margin-left: 3.75rem; /* 60px */
+}
+
+.closer{
+    margin-top: -9.375rem; /* -150px */
+}
+
+
 .button{
     border: none;
     background-color: #e4e4e4;
@@ -72,27 +131,6 @@ a:hover {
     cursor: pointer;
 }
 
-.icon:hover{
-    cursor: pointer;
-}
-.footer{
-   display: block;
-   margin-top: 4.375rem; /* 70px */
-    padding: 0.625rem; /* 10px */
-}
-
-.latestDisplay{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    justify-content: center;
-}
-
-.item {
-  padding: 0.625rem; /* 10px */
-  text-align: center;
-  border-radius: 0.625rem; /* 10px */
-}
 .prettyButtons{
     margin-top: 1.25rem;  /* 20px */
     margin-bottom: 1.25rem;  /* 20px */
@@ -129,24 +167,9 @@ a:hover {
     font-weight:550;
     margin-top: 1.25rem;  /* 20px */
 }
-.icon{
-    height: 5.625rem;
-    margin-top: - 1.25rem;  /* -20px */
-}
-.icon:hover{
-    filter: brightness(60%); 
-}
-.me{
-    height: 25rem; /* 400px */
-    margin-left: 3.75rem; /* 60px */
-}
-.closer{
-    margin-top: -9.375rem; /* -150px */
-}
-.catpic{
-    height: 37.5rem; /* 600px */
-    margin-left: 3.75rem; /* 60px */
-}
+
+
+
 .card {
     border: 0.0625rem solid #ddd; /* 1px */
     border-radius: 0.625rem; /* 10px */
@@ -158,14 +181,6 @@ a:hover {
     color: black;
     width: 25rem; /* 400px */
     min-height: 31.25rem auto; /* 500px */
-}
-
-.bodyNotGrid{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 1.25rem;  /* 20px */
 }
 
 .input{
@@ -197,16 +212,5 @@ a:hover {
     text-align: center;
 }
 
-.workGrid{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 0.125rem; /* 4px */
-    justify-items: center;
-}
 
-.notFound{
-    display: flex;
-    justify-self: center;
-    align-self: center;
-}
+
