@@ -10,6 +10,7 @@ import Design from './Components/Design'
 import FrontEnd from './Components/FrontEnd'
 import NotFound from './Components/NotFound'
 import DetailPage from './Components/WorkDetailsPage'
+import Footer from './Components/footer'
 
 
 createRoot(document.getElementById('root')).render(
@@ -27,6 +28,7 @@ createRoot(document.getElementById('root')).render(
       <Route path='*' element={<NotFound></NotFound>}></Route>
       
     </Routes>
+    <Footer></Footer>
     </BrowserRouter>
 )
 

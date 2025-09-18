@@ -33,7 +33,7 @@ function FrontEnd(){
     ) : (worklist.map((work) => {
         if (work.is_zoomable == false){
             return(
-          <Card key={work.id}  title={work.title}  area={work.is_zoomable} img={work.image_id}> </Card>
+          <Card key={work.id} id={work.id} title={work.title}  area={work.is_zoomable} img={work.image_id} tools={work.classification_title}> </Card>
             )}}))}
     </div>
 

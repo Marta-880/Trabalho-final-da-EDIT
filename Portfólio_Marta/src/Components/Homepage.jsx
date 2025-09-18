@@ -22,9 +22,7 @@ function HomePage(){
         </Link>
         </div>
     </div>
-    <div className="footer">
-        <a href="https://www.behance.net/martapereira26">Check also my behance!</a>
-    </div>
+   
     </>
 }
 

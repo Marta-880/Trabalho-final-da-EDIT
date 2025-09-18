@@ -23,7 +23,7 @@ return <>
     <div className="workGrid">
          {worklist.map((work) => {
             return(
-          <Card key={work.id} id={work.id} title={work.title}  area={work.is_zoomable} img={work.image_id}> </Card>
+          <Card key={work.id} id={work.id} title={work.title}  area={work.is_zoomable} tools={work.classification_title} img={work.image_id}> </Card>
             )})}
 
     </div>

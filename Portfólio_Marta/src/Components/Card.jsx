@@ -13,7 +13,7 @@ function Card({title, img, area, id, text, tools}){
      <Link to={"/my-projects/"+ id}>   
     <div className="card">
         <h2>{title}</h2>
-        <img src={`https://www.artic.edu/iiif/2/${img}/full/843,/0/default.jpg`} alt={title} width={300} height={400} />
+        <img src={`https://www.artic.edu/iiif/2/${img}/full/843,/0/default.jpg`} alt={title} width={300} height={400} className="cardPic" />
         <p>{area}</p>
         <p>{text}</p>
         <p>Tools: {tools}</p>
